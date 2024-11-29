@@ -116,3 +116,23 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
 
 <br><hr>
 
+## Relaciones de Tablas
+
+<b>Necesito relacionar las 13 tablas de la siguiente forma</b>
+<ol>
+    <li>Cliente con País a través del idPais.</li>
+    <li>ConceptoCompra con Compra a través de idConcepto y Concepto.</li>
+    <li>HorarioEstado con HoraCaptacion a través de idEstado y EstadoCaptación.</li>
+    <li>Compra con CompraCliente a través de idCompra.</li>
+    <li>Cliente con CompraCliente a tavés de idCliente.</li>
+    <li>HoraCapClienteCampania con HoraCaptacion a través de idHCaptacion.</li>
+    <li>HoraCapClienteCampania con Campania a través de idCampania.</li>
+    <li>CampaniaProducto con Producto a través de idProducto.</li>
+    <li>CampaniaProducto con Campania a través de idCampania.</li>
+    <li>Record con RecordCliente a través de idRecord.</li>
+    <li>Record con Cliente a través de idCliente.</li>
+    <li>RecordCliente con Campania a través de idCampania.</li>
+</ol>
+<a href = ""> Acceso a las imagenes </a>
+
+<br><hr>
