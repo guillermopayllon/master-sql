@@ -29,9 +29,9 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
             <li>idCliente: tipo int, no admite nulos, identity, y es Primary Key.</li>
             <li>Nombre: tipo varchar(50), no adminte nulos.</li>
             <li>Apellido: tipo varchar(50), no admite nulos.</li>
-            <li>Fnacimiento: tipo date, no admite nulos.<li>
+            <li>Fnacimiento: tipo date, no admite nulos.</li>
             <li>Domicilio: tipo varchar (50), no adminte nulos.</li>
-            <li>idPais: tipo char(3), no adminte nulos.<li>
+            <li>idPais: tipo char(3), no adminte nulos.</li>
             <li>Teléfono: tipo varchar(12), no admite nulos.</li>
             <li>Email: tipo varchar(30), no admite nulos.</li>
             <li>Observaciones: tipo varchar(1000), admite nulos.</li>
@@ -55,7 +55,7 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
     <li>Deberás hacer una tabla país(Pais), que contendrá los países de origen de los clientes.</li>
         <ul>
             <li>idPais: tipo char(3), no admite nulos, y es Primary Key.</li>
-            <li>NombrePais: tipo varchar(100), no admite nulos.<li>
+            <li>NombrePais: tipo varchar(100), no admite nulos.</li>
         </ul>
         <a href = "">Acceso al código</a>
     <li>Deberás crear la tabla Horario Captación Campaña(HorarioCaptacion), que contendrá la hora en la cual los clientes se registrarón en las campañas.</li>
