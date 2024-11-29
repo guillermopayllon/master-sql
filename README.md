@@ -66,13 +66,6 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
             <li>Observaciones: tipo varchar(1000), admite nulos.</li>
         </ul>
         <a href = "">Acceso al código</a>
-    <li>Deberás generar la tabla Horario Captación Campaña Cliente(HoraCapClienteCampania), que contendrá la hora en la cual se registrarón en las campañas de los clientes. Esta tabla debe contener una Primary Key compuesta por los tres campos.</li>
-        <ul>
-            <li>idHcaptacion: tipo int, no adminte nulos, y es Primary Key.</li>
-            <li>idCliente: tipo int, no admite nulos, y es Primary Key.</li>
-            <li>idCampania: tipo int, no adminte nulos, y es Primary Key.</li>
-        </ul>
-        <a href = "">Acceso al código</a>
     <li>Deberás definir la tabla Horario Estado (HorarioEstado) que contendrá la dimensión del horario con la descripción del estado.</li>
         <ul>
             <li>idEstado: tipo smallint, no adminte nulos, identity, y es Primary Key.</li>
@@ -117,7 +110,8 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
     <li>Deberás construir la tabla Conceto Compra(ConceptoCompra), que contendrá la dimensión de conceptos de compra.</li>
         <ul>
             <li>idConcepto: tipo int, identity, no adminte nulos, y es Primary Key.</li>
-            <li>Concepto: tipo varchar(100), no adminte nulos.</li>        
+            <li>Concepto: tipo varchar(100), no adminte nulos.</li>
+            <a href = "">Acceso al código</a>        
 </ol>
 
 <br><hr>
