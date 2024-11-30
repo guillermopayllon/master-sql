@@ -374,7 +374,7 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
                         <li>Concepto: Compra Producto estrella 3</li>
                     <ol>
             </ol>
-        <li>Tabla Compra</li>
+         <li>Tabla Compra</li>
             <ol>
                 <li>Primer Registro</li>
                     <ol>
@@ -400,6 +400,54 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
                         <li>Monto: 5000,0000</li>
                         <li>Observaciones: Comprador Producto Estrella 1</li>
                     </ol>
+            </ol>
 
             
 <br><hr>
+
+## Edición de tablas
+<p>Deberás insertar nuevos registros en las tablas HoraCaptacion y HoraCapClienteCampania utilizando solo comando o 
+lenguaje Transact SQL.</p>
+<ol>
+    <li>Tabla HoraCaptacion</li>
+        <ol>
+            <li>Fecha: 2024-01-01 10:00</li>
+            <li>Estado: 1</li>
+            <li>Observacion: DESCONOCIDO</li>
+        </ol>
+    <li>Tabla HoraCapClienteCampania</li>
+        <ol>
+            <li>idHCaptacion: Deberás colocar el idHCaptacion autogenerado en la tabla HoraCaptacion</li>
+            <li>idCliente: Deberás colocar cualquier idCampania existente en la tabla Campania</li>
+        </ol>
+</ol>
+
+<br><hr>
+
+## consultas
+
+<ol>
+    <li>Haz una consulta "SELECT" que llame a la tabla Cliente y te muestre su contenido.</li>
+    <li>Haz una consulta "SELECT" que te muestre solo los nombres de los clientes.</li>
+    <li>Haz una consulta que muestre los tres primeros registros (TOP N) de la tabla Cliente y que los ordene por
+    fecha de nacimiento de forma ascendente.</li>
+    <li>Haz una consulta que muestro los idPais distintos por Cliente.(Muchas atención a este enunciado)</li>
+    <li>Haz una sentencia que modifique el EMAIL del primer registro de tu tabla Clientes, el nuevo Email es
+    200@gmail.es, utiliza "UPDATE...SET....WHERE...."</li>
+    <li>Realiza un promedio del campo monto de la tabla Compra.</li>
+    <li>Haz una consulta que te muestre los datos de la tabla HoraCaptacion filtrados por fechas entre el 
+    2024-01-01 y el 2024-01-30, debes utilizar el operador "BETWEEN".</li>
+    <li>Crea una consulta "IF" que te devuelva los registros de nacionalidad española de la tabla Cliente.</li>
+    <li>Crea una consulta "CONIDICIONAL CASE" que te devuelva un campo llamdo continente con los continentes de lo
+    paises de la tabla Pais.</li>
+    <li>Crea un STORED PROCEDURE para insertar nuevos registros en la tabla Clientes.</li>
+        <ul>
+            <li>Añade un campo DNI al igual que en el ejercicio del curso(los registros anteriores quedarán 
+            en blanco o nulos).</li>
+            <li>El STORED PROCEDURE debe ejecutarse con la siguiente expresión:<li>
+            <p>EXEC Nuevo_Cliente '2351365', 'Raúl', 'Stuart', '19850521', 'La regasta 25', 'ESP',655821547',
+            'Raul@krokimail.com',''</p>
+            <p>Tener en cuenta la información que te entrega la expresión anterior, por ejemplo, el nombre de la tabla
+            que debes usar.</p>
+        </ul>
+</ol>
