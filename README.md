@@ -451,3 +451,19 @@ lenguaje Transact SQL.</p>
             que debes usar.</p>
         </ul>
 </ol>
+
+<hr>
+<p>Este es el proyecto que nos solicitarón, si tienes experiencia trabajando con SQL verás que no es muy complicado, pero 
+en algunos puntos tendrás que pararte a pensar.</p>
+<p>A continuación te dejo un enlace a cada uno de los archivos sql que resuelven los ejercicios, espero que te sirvan para aprender
+un poco más sobre SQL.</p>
+
+<hr>
+
+## Resolución de ejercicios
+
+<ol>
+    <b><li>Creación de tablas.</li></b>
+            <ol>
+                <li><a href = "#">Creación Tabla Clientes.</a></li>
+                
