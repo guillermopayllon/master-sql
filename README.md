@@ -136,3 +136,271 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
 <a href = ""> Acceso a las imagenes </a>
 
 <br><hr>
+
+## Insertar Registros
+
+<p>Se pueden insertar los registros de la manera que quieras, tanto con Transact, como a través del SQL MMS.</p>
+
+   <ol>
+        <li>Tabla Cliente</li>
+            <ol>
+                <li>Primer Registro: </li>
+                    <ol>
+                        <li>Nombre: Raúl</li>
+                        <li>Apellido: Gonzalez</li>
+                        <li>Fnacimiento: 1986-05-25</li>
+                        <li>Domicilio: Gualtatas 2526</li>
+                        <li>idPais: ESP </li>
+                        <li>Telefono: 664859632</li>
+                        <li>Email: donraul@gmail.es</li>
+                        <li>Observaciones: No hay observaciones</li>
+                        <li>Falta: 2024-01-05 00:00:00.000</li>
+                    </ol>
+                <li>Segundo Registro: </li>
+                    <ol>
+                        <li>Nombre: James</li>
+                        <li>Apellido: Nicole</li>
+                        <li>Fnacimiento: 1990-03-02</li>
+                        <li>Domicilio: O'Neill jack 2568</li>
+                        <li>idPais: USA </li>
+                        <li>Telefono: 1254685632</li>
+                        <li>Email: wuarden@green.us</li>
+                        <li>Observaciones: No hay observaciones</li>
+                        <li>Falta: 2024-01-06 00:01:00.000</li>
+                    </ol>
+                <li>Tercer Registro: </li>
+                    <ol>
+                        <li>Nombre: Marta</li>
+                        <li>Apellido: Perez</li>
+                        <li>Fnacimiento: 1995-05-03</li>
+                        <li>Domicilio: Brasilia 25</li>
+                        <li>idPais: BRA </li>
+                        <li>Telefono: 56432253</li>
+                        <li>Email: mPerezbra@gmail.es</li>
+                        <li>Observaciones: No hay observaciones</li>
+                        <li>Falta: 2024-02-01 00:02:02.000</li>
+                    </ol>
+                <li>Cuarto Registro: </li>
+                    <ol>
+                        <li>Nombre: Claudio</li>
+                        <li>Apellido: Ramirez</li>
+                        <li>Fnacimiento: 1984-08-02</li>
+                        <li>Domicilio: Cheguan 225</li>
+                        <li>idPais: ESP </li>
+                        <li>Telefono: 66852125</li>
+                        <li>Email: caluRami@gmail.es</li>
+                        <li>Observaciones: No hay observaciones</li>
+                        <li>Falta: 2024-02-01 00:02:02.000</li>
+                    </ol>
+                <li>Quinto Registro: </li>
+                    <ol>
+                        <li>Nombre: Markuis</li>
+                        <li>Apellido: Papadopulus</li>
+                        <li>Fnacimiento: 1982-02-06</li>
+                        <li>Domicilio: Grikindier 223</li>
+                        <li>idPais: GRC </li>
+                        <li>Telefono: 2548542355</li>
+                        <li>Email: papadopulusm@gmail.com</li>
+                        <li>Observaciones: Es griego</li>
+                        <li>Falta: 2024-02-01 00:06:00.000</li>
+                    </ol>
+                <li>Sexto Registro: </li>
+                    <ol>
+                        <li>Nombre: Carlos</li>
+                        <li>Apellido: Trebor</li>
+                        <li>Fnacimiento: 1966-05-03</li>
+                        <li>Domicilio: Pedro Pastor 2</li>
+                        <li>idPais: MEX </li>
+                        <li>Telefono: 135852133</li>
+                        <li>Email: Carlitos@gmail.ue</li>
+                        <li>Observaciones: No hay observaciones</li>
+                        <li>Falta: 2024-02-01 00:00:00.000</li>
+                    </ol>
+                <li>Septimo Registro: </li>
+                    <ol>
+                        <li>Nombre: Otto</li>
+                        <li>Apellido: Von Kunstmann</li>
+                        <li>Fnacimiento: 1975-09-01</li>
+                        <li>Domicilio: Ötiggen str 3</li>
+                        <li>idPais: DEU </li>
+                        <li>Telefono: 6582216335</li>
+                        <li>Email: elaleman@aleman.com</li>
+                        <li>Observaciones: Es Aleman</li>
+                        <li>Falta: 2024-01-06 00:08:00.000</li>
+                    </ol>
+                <li>Octavo Registro: </li>
+                    <ol>
+                        <li>Uit</li>
+                        <li>Apellido: Tlinnlnie</li>
+                        <li>Fnacimiento: 1977-05-05</li>
+                        <li>Domicilio: Intrati 22</li>
+                        <li>idPais: IND </li>
+                        <li>Telefono: 1325865523</li>
+                        <li>Email: uit@guit.in</li>
+                        <li>Observaciones: Es Indio</li>
+                        <li>Falta: 2024-02-06 00:01:00.000</li>
+                    </ol>
+            </ol>
+        <li>Tabla País</li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idPais: ESP</li>
+                        <li>Pais: España</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idPais: GRC</li>
+                        <li>Pais: Grecia</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idPais: India</li>
+                        <li>Pais: India</li>
+                    </ol>
+                <li>Cuarto Registro</li>
+                    <ol>
+                        <li>idPais: USA</li>
+                        <li>Pais: Estados Unidos</li>
+                    </ol>
+                <li>Quinto Registro</li>
+                    <ol>
+                        <li>idPais: MEX</li>
+                        <li>Pais: Mexico</li>
+                    </ol>
+                <li>Sexto Registro</li>
+                    <ol>
+                        <li>idPais: BRA</li>
+                        <li>Pais: Brasil</li>
+                    </ol>
+                <li>Septimo Registro</li>
+                    <ol>
+                        <li>idPais: DEU</li>
+                        <li>Pais: Alemania</li>
+                    </ol>
+        <li>Tabla HoraCaptacion</li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idHCaptacion: 1</li>
+                        <li>FechaCaptacion: 2024-01-05</li>
+                        <li>EstadoCaptacion: 1</li>
+                        <li>Observaciones: Lead</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idHCaptacion: 5</li>
+                        <li>FechaCaptacion: 2024-01-05</li>
+                        <li>EstadoCaptacion: 2</li>
+                        <li>Observaciones: Lead</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idHCaptacion: 6</li>
+                        <li>2024-02-01</li>
+                        <li>EstadoCaptacion: 1</li>
+                        <li>Observaciones: Cliente</li>
+                    </ol>
+                <li>Cuarto Registro</li>
+                    <ol>
+                        <li>idHCaptacion: 7</li>
+                        <li>2024-02-01</li>
+                        <li>EstadoCaptacion: 3</li>
+                        <li>Observaciones: Prospecto</li>
+                    </ol>
+                <li>Quinto Registro</li>
+                    <ol>
+                        <li>idHCaptacion: 8</li>
+                        <li>FechaCaptacion: 2024-02-01</li>
+                        <li>EstadoCaptacion: 1</li>
+                        <li>Observaciones: Lead</li>
+                    </ol>
+        <li>Tabla Campania></li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idCampania: 1</li>
+                        <li>NombreCampaña: Producto Estrella 1</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idCampania: 2</li>
+                        </li>NombreCampania: Producto Estrella 2</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idCampania: 3</li>
+                        <li>NombreCampania: Producto Estrella 3</li>
+                    </ol>
+            </ol>
+        <li>Tabla HorarioEstado</li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idEstado: 1</li>
+                        <li>Descripción: Prime tarde-noche</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idEstado: 2</li>
+                        <li>Descripción: Valle Media Tarde, media mañana</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idEstado: 3</li>
+                        <li>Descripción: Breakfast antes de las 10 AM</li>
+                    </ol>
+                <li>Cuarto Registro</li>
+                    <ol>
+                        <li>idEstado: 4</li>
+                        <li>Descripcion: Nocturno después de las 00:00</li>
+                    </ol>
+            </ol>
+        <li>Tabla ConceptoCompra</li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idConcepto: 1</li>
+                        <li>Concepto: Compra Producto Estrella 1</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idConcepto: 2</li>
+                        <li>Concepto: Compra producto estrella 2</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idConcepto: 3</li>
+                        <li>Concepto: Compra Producto estrella 3</li>
+                    <ol>
+            </ol>
+        <li>Tabla Compra</li>
+            <ol>
+                <li>Primer Registro</li>
+                    <ol>
+                        <li>idCompra: 1</li>
+                        <li>Concepto: 1</li>
+                        <li>Fecha: 2024-01-02 00:00:00.000</li>
+                        <li>Monto: 5000,0000</li>
+                        <li>Observaciones: Comprador de producto estrella 1</li>
+                    </ol>
+                <li>Segundo Registro</li>
+                    <ol>
+                        <li>idCompra: 4</li>
+                        <li>Concepto: 2</li>
+                        <li>Fecha: 2024-01-02 00:00:00.000</li>
+                        <li>Monto: 3500,0000</li>
+                        <li>Observaciones: Comprador Producto Estrella 2</li>
+                    </ol>
+                <li>Tercer Registro</li>
+                    <ol>
+                        <li>idCompra: 5</li>
+                        <li>Concepto: 2</li>
+                        <li>Fecha: 2024-01-03 00:00:00.000</li>
+                        <li>Monto: 5000,0000</li>
+                        <li>Observaciones: Comprador Producto Estrella 1</li>
+                    </ol>
+
+            </ol>                        
+    </ol>
+<br><hr>
