@@ -401,6 +401,5 @@ IBM y DataHack en noviembre de 2024, y que lógicamente está relacionado con un
                         <li>Observaciones: Comprador Producto Estrella 1</li>
                     </ol>
 
-            </ol>                        
-    </ol>
+            
 <br><hr>
