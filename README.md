@@ -469,8 +469,12 @@ un poco más sobre SQL.</p>
                 <li><a a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-record.sql">Creación Tabla Records</a></li>
                 <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-recordCliente.sql">Creación Tabla RecordCliente</a></li>
                 <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-country.sql">Creación Tabla País</a></li>
-                <li><a href = "">Creación Tabla HorarioCaptacion</a></li>
-                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-scheduleCapClientCampaign.sql">Creación Tabla HoraCapClienteCampania</a></li>
-                
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-scheduleCaptionCampaign.sql">Creación Tabla HorarioCaptacion</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-scheduleCapClientCampaign.sql">Creación Tabla HorarioCapClienteCampania</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-scheduleStatus.sql">Creación Tabla HorarioEstado</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-product.sql">Creación Tabla Producto</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-purchase.sql">Creación Tabla Compras</a></li>
+            </ol>
+</ol>                
 
                 
