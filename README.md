@@ -475,6 +475,38 @@ un poco más sobre SQL.</p>
                 <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-product.sql">Creación Tabla Producto</a></li>
                 <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-purchase.sql">Creación Tabla Compras</a></li>
             </ol>
+    <b><li>Relación entre tablas</li></b>
+            <ol>
+                <li><a href = "">Acceso a Relación entre tablas</a></li>
+            </ol>
+    <b><li>Insercción de datos</li></b>
+            <ol>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-client.sql">Tabla Clientes</a></li>
+               <li><a href = "">Tabla País</a></li>
+               <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-hourCaption.sql">Tabla HoraCaptacion</a></li>
+               <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-campaign.sql">Tabla Campania</a></li>
+               <li><a href ="https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-statusSchedule.sql">Tabla HorarioEstado</a></li>
+               <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-conceptPurchase.sql">Tabla ConceptoCompra</a></li>
+               <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/insert-data-tables/insert-data-purchase.sql">Tabla Compra</a></li>
+            </ol>
+    <b><li>Edición de Tablas</li>
+            <ol>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/editing-tables/editing-hourCaption.sql">Tabla HoraCaptacion</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/editing-tables/edititng-hourCapClientCampaign.sql">HoraCapClienteCampania</a></li>
+            </ol>
+    <b><li>Consultas(Querys)</li></b>
+            <ol>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/query-table-client.sql">Select a Tabla Cliente</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/filterd-query-name.sql">Select Filtrado a Tabla Cliente</a></li>
+                <li><a href = "">Mostrar los Primeros tres Registros (TOP N)</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/diferent-idPais-by-client.sql">Mostar por idPais distintos Cliente</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/modify-email.sql">Actualizar Email al primer registro Tabla Cliente</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/average-amount.sql">Promedio Tabla Compra</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/filtered-by-date.sql">Filtrar Fechas(BETWEEN)</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/query-if.sql">Consulta IF</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/conditional-case.sql">Crear CONDICIONAL CASE</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/querys/create-stored-procedure.sql">Crear un STORED PROCEDURE</a></li>            
+            </ol>
 </ol>                
 
                 
