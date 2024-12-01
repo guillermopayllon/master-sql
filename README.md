@@ -465,5 +465,12 @@ un poco más sobre SQL.</p>
 <ol>
     <b><li>Creación de tablas.</li></b>
             <ol>
-                <li><a href = "#">Creación Tabla Clientes.</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-client.sql">Creación Tabla Clientes.</a></li>
+                <li><a a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-record.sql">Creación Tabla Records</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-recordCliente.sql">Creación Tabla RecordCliente</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-country.sql">Creación Tabla País</a></li>
+                <li><a href = "">Creación Tabla HorarioCaptacion</a></li>
+                <li><a href = "https://github.com/guillermopayllon/master-sql/blob/main/creation-tables/create-table-scheduleCapClientCampaign.sql">Creación Tabla HoraCapClienteCampania</a></li>
+                
+
                 
